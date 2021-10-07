@@ -1,6 +1,9 @@
 package kingdom.fish;
 
-public class Dolphin implements Swimmable {
+import kingdom.Animal;
+import kingdom.Swimmable;
+
+public class Dolphin extends Animal implements Swimmable {
     @Override
     public void swim() {
         System.out.println("I am swimming");

@@ -3,7 +3,7 @@ package kingdom.insect;
 import kingdom.Animal;
 
 public class Caterpillar extends Animal {
-    private boolean haveMetamorphosised = false;
+    private final boolean haveMetamorphosised = false;
 
     public void fly() {
         if (haveMetamorphosised) {
@@ -23,7 +23,7 @@ public class Caterpillar extends Animal {
 
     public void sing() {
         if (haveMetamorphosised) {
-            System.out.println("");
+            System.out.println();
         } else {
             System.out.println("I am singing");
         }

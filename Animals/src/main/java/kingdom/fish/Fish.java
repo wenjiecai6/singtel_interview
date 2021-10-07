@@ -1,25 +1,32 @@
 package kingdom.fish;
 
 import kingdom.Animal;
+import kingdom.Swimmable;
 
-public abstract class Fish extends Animal {
+public class Fish extends Animal implements Swimmable {
     private String size;
     private String color;
     private boolean canEatOtherFish;
     private boolean canMakeJokes;
 
-    public Fish(String size, String color){
+    public Fish(String size, String color) {
         this.size = size;
         this.color = color;
     }
-    public void walk(){
+
+    public void walk() {
         throw new UnsupportedOperationException("Unable to walk");
     }
+
     public void swim() {
         System.out.println("I am swimming");
     }
 
-    public abstract boolean isCanEatOtherFish();
+    public boolean isCanEatOtherFish() {
+        return false;
+    }
 
-    public abstract boolean isCanMakeJokes() ;
+    public boolean isCanMakeJokes() {
+        return false;
+    }
 }

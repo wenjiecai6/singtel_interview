@@ -1,10 +1,10 @@
 package kingdom.bird;
 
-public class Chicken extends Bird{
+import kingdom.Singable;
+
+public class Chicken extends Bird implements Singable {
+    @Override
     public void sing() {
         System.out.println("Cluck, cluck");
-    }
-    public void fly() {
-        throw new UnsupportedOperationException("Unable to fly");
     }
 }

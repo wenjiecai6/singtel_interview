@@ -1,4 +1,4 @@
-package kingdom.fish;
+package kingdom;
 
 public interface Swimmable {
     void swim();
