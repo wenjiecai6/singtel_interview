@@ -1,7 +1,7 @@
-package kingdom;
+package kingdom.bird;
 
 public class Rooster {
-    void sing() {
+    public void sing() {
         System.out.println("Cock-a-doodle-doo");
     }
 }

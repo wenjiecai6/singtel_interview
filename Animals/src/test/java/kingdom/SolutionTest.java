@@ -1,5 +1,7 @@
 package kingdom;
 
+import kingdom.bird.Bird;
+import kingdom.bird.Parrot;
 import kingdom.enums.ParrotType;
 import org.junit.Test;
 

@@ -1,10 +1,10 @@
-package kingdom;
+package kingdom.bird;
 
 public class Duck extends Bird{
-    void sing() {
+    public void sing() {
         System.out.println("Quack , quack");
     }
-    void swim() {
+    public void swim() {
         System.out.println("I am swimming");
     }
 }

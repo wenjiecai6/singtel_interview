@@ -1,10 +1,10 @@
-package kingdom;
+package kingdom.bird;
 
 public class Chicken extends Bird{
-    void sing() {
+    public void sing() {
         System.out.println("Cluck, cluck");
     }
-    void fly() {
+    public void fly() {
         throw new UnsupportedOperationException("Unable to fly");
     }
 }

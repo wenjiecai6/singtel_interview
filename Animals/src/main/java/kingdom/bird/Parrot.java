@@ -1,4 +1,4 @@
-package kingdom;
+package kingdom.bird;
 
 import kingdom.enums.ParrotType;
 
@@ -9,7 +9,7 @@ public class Parrot {
         this.parrotType = parrotType;
     }
 
-    void sing() {
+    public void sing() {
         System.out.println(parrotType.getSound());
     }
 }

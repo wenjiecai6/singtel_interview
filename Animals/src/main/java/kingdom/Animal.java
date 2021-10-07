@@ -1,7 +1,7 @@
 package kingdom;
 
 public class Animal {
-    void walk() {
+    public void walk() {
         System.out.println("I am walking");
     }
 }
